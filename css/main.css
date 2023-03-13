@@ -135,3 +135,85 @@ i{
     width: calc(100% / 3 - 20px);
     margin: 10px 10px;
 }
+.section5{
+    width: 50%;
+    margin: 30px auto;
+}
+.section6{
+    width: 100vw;
+    display: flex;
+}
+/* Loghi sponsor a sinistra */
+.leftPartners{
+    width: calc(100% / 3);
+}
+.partenersL{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logos{
+    width: calc(100% / 2);
+    padding: 15%;
+}
+#designit{
+    background-color: #a2d39b;
+    color: white;
+}
+#asu{
+    background-color: #61082b;
+    color: white;
+}
+#uf{
+    background-color: #0093ce;
+    color: white;
+}
+#topps{
+    background-color: #ff1c1c;
+    color: white;
+}
+/* Pubblicità centrale */
+.ads{
+    width: calc(100% / 3);
+    padding: 3%;
+}
+/* Partners a destra */
+.rightPartners{
+    width: calc(100% / 3);
+}
+.partenersR{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logos{
+    width: calc(100% / 2);
+    padding: 15%;
+}
+#wbr{
+    background-color: #d5001f;
+    color: white;
+}
+#hearst{
+    background-color: #b4d0e7;
+    color: white;
+}
+#lonely{
+    background-color: #0d2481;
+    color: white;
+}
+#clear{
+    background-color: #ffd830;
+    color: white;
+}
+.section7{
+    width: 100vw;
+    background-color: #b4d0e7;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.s7{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
