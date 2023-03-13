@@ -5,3 +5,29 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: grey;
+}
+button{
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+    border-style: none;
+}
+/* Proprietà header */
+.box{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.box > div{
+    display: flex;
+    align-items: center;
+}
+.leftItems > div{
+    padding: 1em;
+}
+.rightItems > div{
+    padding: 1em;
+}
