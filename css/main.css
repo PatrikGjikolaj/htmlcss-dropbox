@@ -92,9 +92,6 @@ i{
     display: flex;
     justify-content: space-between;
 }
-.offer2.2{
-    width: calc(100%-10px);
-}
 .offer2{
     border: 1px solid grey;
     margin-left: 10px;
@@ -112,4 +109,29 @@ i{
 .ent{
     display: flex;
     justify-content: space-between;
+}
+.section3{
+    width: 50%;
+    display: flex;
+    margin: 30px auto;
+}
+.section3_1{
+    width: 60%;
+}
+.section3_2{
+    width: 40%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.section4{
+    width: 50%;
+    margin: 0 auto;
+}
+.profili{
+    display: flex;
+    flex-wrap: wrap;
+}
+.options{
+    width: calc(100% / 3 - 20px);
+    margin: 10px 10px;
 }
