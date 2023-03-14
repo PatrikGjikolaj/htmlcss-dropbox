@@ -5,10 +5,6 @@
     margin: 0;
     padding: 0;
 }
-a{
-    text-decoration: none;
-    color: grey;
-}
 button{
     color: white;
     background-color: #0061ff;
@@ -34,6 +30,10 @@ button{
 .rightItems > div{
     padding: 1em;
 }
+.blackText{
+    text-decoration: none;
+    color: #000000;
+}
 /* Proprietà main */
 main {
     padding-top: 50px;
@@ -52,14 +52,15 @@ main {
     justify-content: center;
 }
 .bS1{
-    width: 25%;
-    font-size: 15px;
+    width: calc(100% / 3);
+    font-size: 13px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .bS2{
-    width: 75%;
+    width: calc(100% / 3 * 2);
     margin-bottom: -5%;
 }
 img{
@@ -70,7 +71,7 @@ img{
     padding: 20px 0 20px 0;
 }
 .freccia{
-    font-size: 50px;
+    font-size: 40px;
 }
 /* Sezione 2 */
 .section2{
