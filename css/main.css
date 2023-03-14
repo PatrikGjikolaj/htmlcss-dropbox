@@ -1,6 +1,6 @@
 /* Proprietà applicate a tutto il documento */
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,10 +20,13 @@ button{
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    position: fixed;
+    background-color: white;
 }
 .box > div{
     display: flex;
     align-items: center;
+    font-size: 13px;
 }
 .leftItems > div{
     padding: 1em;
@@ -32,33 +35,39 @@ button{
     padding: 1em;
 }
 /* Proprietà main */
+main {
+    padding-top: 50px;
+}
 /* Sezione 1 */
 .section1{
     width: 100vw;
     background-color: #b4d0e7;
 }
-.section1 > div{
+.bo2{
     width: 64%;
-    display: flex;
-    justify-content: center;
     margin: 0 auto;
 }
+.bodySection1{
+    display: flex;
+    justify-content: center;
+}
 .bS1{
-    width: 45%;
+    width: 25%;
     font-size: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.bs2{
-    width: 55%;
+.bS2{
+    width: 75%;
+    margin-bottom: -5%;
 }
 img{
     width: 100%;
-    height: 100%;
 }
-h1{
-    font-size: 80px;
+.titleSection1{
+    font-size: 55px;
+    padding: 20px 0 20px 0;
 }
 .freccia{
     font-size: 50px;
@@ -66,13 +75,10 @@ h1{
 /* Sezione 2 */
 .section2{
     width: 50%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 .section2 > div {
     margin-top: 30px;
-}
-.titleSection1 , .bodySection1{
-    padding-top:  30px;
 }
 .offer1{
     display: flex;
@@ -110,6 +116,9 @@ i{
     display: flex;
     justify-content: space-between;
 }
+ul {
+    list-style-position: outside;
+}
 .section3{
     width: 50%;
     display: flex;
@@ -145,15 +154,20 @@ i{
 }
 /* Loghi sponsor a sinistra */
 .leftPartners{
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 .partenersL{
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
 }
 .logos{
     width: calc(100% / 2);
+    height: calc(100% / 2);
     padding: 15%;
+    display: flex;
+    align-items: center;
 }
 #designit{
     background-color: #a2d39b;
@@ -175,18 +189,16 @@ i{
 .ads{
     width: calc(100% / 3);
     padding: 3%;
+    overflow-y: scroll;
 }
 /* Partners a destra */
 .rightPartners{
-    width: calc(100% / 3);
+    width: calc(100vw / 3);
 }
 .partenersR{
     display: flex;
     flex-wrap: wrap;
-}
-.logos{
-    width: calc(100% / 2);
-    padding: 15%;
+    height: 100%;
 }
 #wbr{
     background-color: #d5001f;
@@ -216,4 +228,40 @@ i{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+.section8{
+    width: 50%;
+    margin: 30px auto;
+}
+/* Proprietà footer */
+.footer{
+    background-color: #000000;
+    color: white;
+    width: 100vw;
+}
+.linkutili{
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+    margin: 0 auto;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+}
+.links > a {
+    margin-top: 10px;
+    font-size: 10px;
+}
+.links > h3{
+    margin:10px 0 ;
+}
+.lingua{
+    width: 64%;
+    margin: 0 auto;
+    align-content: center;
+}
+.footHr{
+    margin: 10px 70% 10px 0%;
 }
