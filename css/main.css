@@ -246,7 +246,7 @@ h2{
     padding: 3%;
 }
 .scroll{
-    overflow-y: scroll;
+    overflow-y: auto;
     max-height: calc(100vw / 6);
 }
 /* Partners a destra */
@@ -300,7 +300,7 @@ h2{
 /* Sezione 8 */
 .section8{
     width: 50%;
-    margin: 30px auto;
+    margin: 100px auto;
 }
 .font25{
     font-size: clamp(0.0625rem, -0.951rem + 4.0541vw, 1.5625rem);
@@ -308,10 +308,14 @@ h2{
 .hidden {
     display: none;
 }
-.flex:hover + .hidden {
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column:hover .hidden {
     display: block;
 }
-.flex:hover .rotate {
+.column:hover .rotate {
     transform: scaleY(-1);
 }
 /* Proprietà footer */
