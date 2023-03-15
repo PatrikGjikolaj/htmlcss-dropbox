@@ -282,6 +282,12 @@ ul {
 .hidden {
     display: none;
 }
+.flex:hover + .hidden {
+    display: block;
+}
+.flex:hover .rotate {
+    transform: scaleY(-1);
+}
 /* Proprietà footer */
 .footer{
     background-color: #000000;
