@@ -101,6 +101,9 @@ h2{
 .font13{
     font-size: clamp(0.0625rem, -0.4443rem + 2.027vw, 0.8125rem);
 }
+.font16{
+    font-size: clamp(0.0625rem, -0.5709rem + 2.5338vw, 1rem);
+}
 .offerHr{
     margin-right: 70%;
     margin-left: 10%;
