@@ -72,11 +72,13 @@ img{
 }
 .freccia{
     font-size: 40px;
+    color: #000000;
 }
 /* Sezione 2 */
 .section2{
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto;
+    padding-top: 50px;
 }
 h2{
     font-size: 40px;
@@ -84,7 +86,7 @@ h2{
 .fatt{
     display: flex;
 }
-#space{
+.spaceR{
     margin-left: 30px;
 }
 .section2 > div {
@@ -97,7 +99,7 @@ h2{
     border: 1px solid gray;
 }
 .font13{
-    font-size: 13px;
+    font-size: clamp(0.0625rem, -0.4443rem + 2.027vw, 0.8125rem);
 }
 .offerHr{
     margin-right: 70%;
@@ -129,13 +131,17 @@ h2{
 .ul {
     list-style-position: outside;
     list-style-image: url(../img/check-solid.svg);
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .mLeft{
     margin-left: -15px;
 }
 .padding6{
     padding: 6px;
+}
+.flexTab{
+    display: flex;
+    align-items: first baseline;
 }
 /* Sezione 3 */
 .section3{
