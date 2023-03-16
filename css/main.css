@@ -357,6 +357,7 @@ h2{
 }
 .links > h3{
     margin:10px 0 ;
+    font-size: clamp(0.0625rem, -0.5709rem + 2.5338vw, 1rem);
 }
 .lingua{
     width: 64%;
